@@ -315,11 +315,11 @@ li{
 @media screen and (min-width: 1024px) {
   .header{
     background-position: center;
-    min-height: 700px;
+    min-height: 800px;
   }
   .header__topbar{
-    padding-block: 0;
-    padding-inline: 1.5rem;
+    padding-block: 1rem;
+    padding-inline: 2rem;
   }
   .header__navmenu,.header__list{
     display: flex;
@@ -346,6 +346,8 @@ li{
   }
   .header__h1{
     margin-block: 6rem;
+    font-weight: 900;
+    font-size: 3rem;
   }
   .header__arrow-down{
     width: 35px;
