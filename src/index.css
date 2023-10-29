@@ -296,8 +296,13 @@ li{
     display: flex;
     flex-flow: row;
   }
+  .main__graphic-design,
+  .main__photography{
+    position: relative;
+    margin-block-end: .75rem;
+  }
   .main__client-testimonials{
-    padding-block: 5rem;
+    padding-block: 7rem;
   }
   .main__client-testimonials div{
     display: flex;
@@ -334,20 +339,26 @@ li{
     color: white;
     font-weight: 500;
     margin-inline: 1rem;
+    font-size: 1.125rem;
   }
   .header__contact-btn{
+    font-size: 1.125rem;
+    font-weight: 700;
     background-color: white;
-    max-width: 120px;
-    padding: .25rem 1rem;
+    max-width: 130px;
+    padding: .5rem 1rem;
     padding-block: .25rem;
     margin: 0;
     padding: 1rem;
-    max-height: 100px;
+    max-height: 150px;
+  }
+  .header__logo{
+    width: 150px;
   }
   .header__h1{
     margin-block: 6rem;
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .header__arrow-down{
     width: 35px;

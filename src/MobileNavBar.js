@@ -5,7 +5,7 @@ const MobileNavBar = () => {
     return (
         <>
             <section className="header__topbar">
-                    <img src={require('./images/logo.svg').default} alt='logo' />
+                    <img src={require('./images/logo.svg').default} alt='logo' className="header__logo"/>
                     <img 
                         src={require('./images/icon-hamburger.svg').default} 
                         alt='menu-icon'
